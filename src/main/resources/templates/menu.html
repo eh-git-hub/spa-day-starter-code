@@ -29,12 +29,11 @@
 <div th:if="${manipedi == 'manicure'}">
     <h3 th:text="${#strings.capitalize(manipedi)}">Manicure or Pedicure</h3>
         <p th:replace = "fragments :: manicureDescription"></p>
-<!--        <p th:unless th:replace = "fragments :: pedicureDescription"></p>-->
 </div>
-    <div th:if="${manipedi == 'pedicure'}">
+
+<div th:unless="${manipedi == 'manicure'}">
     <h3 th:text="${#strings.capitalize(manipedi)}">Manicure or Pedicure</h3>
         <p th:replace = "fragments :: pedicureDescription"></p>
-<!--        <p th:unless th:replace = "fragments :: pedicureDescription"></p>-->
 </div>
 </div>
 </body>
