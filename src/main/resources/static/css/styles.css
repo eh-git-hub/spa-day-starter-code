@@ -18,6 +18,11 @@ h1 {
         padding: 10px;
         text-align: center;
         background-color: white;
+        text-decoration: underline;
+}
+
+.menu {
+    text-decoration: underline;
 }
 
 table {
