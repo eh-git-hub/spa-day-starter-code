@@ -1,5 +1,7 @@
 body {
     background-color: pink;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
 }
 
 div {
@@ -26,21 +28,36 @@ table {
 }
 
 .nailpolish1 {
-    background-color: #42f5da
+    background-color: #42f5da;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .nailpolish2 {
-    background-color: #f542bf
+    background-color: #f542bf;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .nailpolish3 {
-    background-color: #f2f542
+    background-color: #f2f542;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .nailpolish4 {
-    background-color: #5442f5
+    background-color: #5442f5;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .nailpolish5 {
-    background-color: #f55d42
+    background-color: #f55d42;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777;
 }
