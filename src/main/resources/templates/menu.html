@@ -9,9 +9,9 @@
     <h1>My Super Fancy Spa</h1>
 <div id = "clientProfile">
     <h2>My profile</h2>
-    <p th:text="${name}">Name</p>
-    <p th:text="${skintype}">Skin Type</p>
-    <p th:text="${manipedi}">Manicure and Pedicure</p>
+    <p th:text="${#strings.capitalize(name)}">Name</p>
+    <p th:text="${#strings.capitalize(skintype)}">Skin Type</p>
+    <p th:text="${#strings.capitalize(manipedi)}">Manicure and Pedicure</p>
 </div>
 <div id = "servicesMenu">
     <h2>Menu of Available Services</h2>
@@ -37,4 +37,11 @@
 </div>
 </div>
 </body>
+<footer>
+    <div class="nailpolish1"></div>
+    <div class="nailpolish2"></div>
+    <div class="nailpolish3"></div>
+    <div class="nailpolish4"></div>
+    <div class="nailpolish5"></div>
+</footer>
 </html>
