@@ -32,7 +32,16 @@ table {
             text-align: center;
 }
 
-.nailpolish1 {
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child1 {
     background-color: #42f5da;
     padding: 10px;
     margin: auto;
@@ -41,7 +50,7 @@ table {
     box-shadow: 0 10px 6px -6px #777;
 }
 
-.nailpolish2 {
+.flex-child2 {
     background-color: #f542bf;
     padding: 10px;
     margin: auto;
@@ -50,7 +59,7 @@ table {
     box-shadow: 0 10px 6px -6px #777;
 }
 
-.nailpolish3 {
+.flex-child3 {
     background-color: #f2f542;
     margin: auto;
     width: 50%;
@@ -58,18 +67,16 @@ table {
     box-shadow: 0 10px 6px -6px #777;
 }
 
-.nailpolish4 {
+.flex-child4 {
     background-color: #5442f5;
     margin: auto;
     width: 50%;
     text-align: center;
     box-shadow: 0 10px 6px -6px #777;
     }
-}
 
-.nailpolish5 {
-    background-color: #f55d42;
-    padding: 10px;
+.flex-child5 {
+    background-color: #3471eb;
     margin: auto;
     width: 50%;
     text-align: center;
